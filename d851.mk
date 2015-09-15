@@ -107,6 +107,8 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
+    af.fast_track_multiplier=1 \
+    audio_hal.period_size=192 \
     media.aac_51_output_enabled=true \
     use.voice.path.for.pcm.voip=true \
     persist.audio.fluence.voicecall=true \
