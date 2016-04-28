@@ -11,7 +11,7 @@ $(call inherit-product, device/lge/d851/d851.mk)
 PRODUCT_RELEASE_NAME := d851
 
 # Bootanimation
-TARGET_BOOTANIMATION_NAME := 1440
+PAC_BOOTANIMATION_NAME := 1440
 
 # Device Naming
 PRODUCT_DEVICE := d851
