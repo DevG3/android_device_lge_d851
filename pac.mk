@@ -23,5 +23,5 @@ PRODUCT_MANUFACTURER := LGE
 # Device Overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="g3_tmo_us" \
-    PRIVATE_BUILD_DESC="g3_tmo_us-user 5.0.1 LRX21Y 15227151285fc release-keys" \
-    BUILD_FINGERPRINT="lge/g3_tmo_us/g3:5.0.1/LRX21Y/15227151285fc:user/release-keys"
+    PRIVATE_BUILD_DESC="g3_tmo_us-user 6.0 MRA58K 1609517159bca release-keys" \
+    BUILD_FINGERPRINT="lge/g3_tmo_us/g3:6.0/MRA58K/1609517159bca:user/release-keys"
