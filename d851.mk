@@ -352,8 +352,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth firmware
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd:system/etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd \
-    device/lge/d851/prebuilt/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:system/etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
+    device/lge/d851/prebuilt/vendor/firmware/BCM4335_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd:system/vendor/firmware/BCM4335_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd
 
 # Camera
 PRODUCT_COPY_FILES += \
