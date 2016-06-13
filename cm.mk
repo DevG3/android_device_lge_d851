@@ -1,11 +1,12 @@
+
+# Device Stuff
+$(call inherit-product, device/lge/d851/d851.mk)
+
 # CM Stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
-# Device Stuff
-$(call inherit-product, device/lge/d851/d851.mk)
 
 # Release Name
 PRODUCT_RELEASE_NAME := d851

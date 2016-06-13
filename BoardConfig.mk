@@ -60,7 +60,8 @@ COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND=' \
     { "persist.data.sensor_name", AID_CAMERA, 0 }, \
     { "camera.4k2k.enable", AID_MEDIA, 0 }, \
     { "persist.data.rear.minfps", AID_MEDIA, 0 }, \
-    { "persist.data.front.minfps", AID_MEDIA, 0 },'
+    { "persist.data.front.minfps", AID_MEDIA, 0 }, \
+    '
 
 # WiFi
 BOARD_WLAN_DEVICE := bcmdhd
