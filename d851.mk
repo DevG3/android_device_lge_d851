@@ -491,7 +491,8 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     device/lge/d851/prebuilt/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     device/lge/d851/prebuilt/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    device/lge/d851/prebuilt/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so
+    device/lge/d851/prebuilt/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    device/lge/d851/prebuilt/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
 
 # Graphics firmware
 PRODUCT_COPY_FILES += \
