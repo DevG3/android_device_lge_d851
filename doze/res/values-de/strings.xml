@@ -13,16 +13,16 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Gesture shortcuts -->
-  <string name="screen_gestures_panel_title">Gesten</string>
   <string name="ambient_display_title">Inaktivitätsdisplay</string>
-  <string name="ambient_display_enable_title">Inaktivitätsdisplay</string>
-  <string name="ambient_display_enable_summary">Bildschirm beim Empfang von Benachrichtigungen aktivieren</string>
+  <string name="ambient_display_summary">Bildschirm wecken, wenn Sie Benachrichtigungen erhalten</string>
+  <!-- Tilt sensor -->
+  <!-- Proximity sensor -->
+  <string name="priximity_sensor_title">Näherungssensor</string>
   <string name="hand_wave_gesture_title">Winken</string>
   <string name="hand_wave_gesture_summary">Beim Winken Benachrichtigungen kurzzeitig einblenden</string>
   <string name="pocket_gesture_title">Tasche</string>
-  <string name="pocket_gesture_summary">Beim Entfernen aus der Tasche Benachrichtigungen kurzzeitig einblenden</string>
-  <string name="proximity_wake_title">Aufwecken bei Annäherung</string>
-  <string name="proximity_wake_enable_title">Aufwecken bei Annäherung</string>
-  <string name="proximity_wake_enable_summary">Gerät durch Winken aufwecken</string>
+  <string name="pocket_gesture_summary">Benachrichtigungen kurz einblenden, wenn das Gerät aus der Tasche genommen wird</string>
+  <!-- Help text -->
+  <string name="dlg_ok">OK</string>
+  <string name="doze_settings_help_title">Hilfe</string>
 </resources>

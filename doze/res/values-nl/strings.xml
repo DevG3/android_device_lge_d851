@@ -13,16 +13,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Gesture shortcuts -->
-  <string name="screen_gestures_panel_title">Gebaren</string>
   <string name="ambient_display_title">Omgevingsdisplay</string>
-  <string name="ambient_display_enable_title">Omgevingsdisplay</string>
-  <string name="ambient_display_enable_summary">Scherm aan bij het ontvangen van meldingen</string>
+  <string name="ambient_display_summary">Scherm aan bij het ontvangen van meldingen</string>
+  <string name="always_enabled_title">Altijd inschakelen</string>
+  <!-- Tilt sensor -->
+  <string name="pick_up_title">Oppakken</string>
+  <string name="pick_up_summary">Meldingen laten knipperen bij oppakken</string>
+  <!-- Proximity sensor -->
+  <string name="priximity_sensor_title">Nabijheidssensor</string>
   <string name="hand_wave_gesture_title">Handgebaar</string>
   <string name="hand_wave_gesture_summary">Meldingen laten knipperen bij handgebaar</string>
   <string name="pocket_gesture_title">Broekzak</string>
   <string name="pocket_gesture_summary">Meldingen laten knipperen bij verwijderen uit broekzak</string>
-  <string name="proximity_wake_title">Ontwaken bij dichtbij</string>
-  <string name="proximity_wake_enable_title">Ontwaken bij dichtbij</string>
-  <string name="proximity_wake_enable_summary">Apparaat ontwaken bij handgebaar</string>
+  <!-- Help text -->
+  <string name="dlg_ok">OK</string>
+  <string name="doze_settings_help_title">Help</string>
 </resources>

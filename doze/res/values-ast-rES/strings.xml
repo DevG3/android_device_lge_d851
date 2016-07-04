@@ -13,16 +13,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Gesture shortcuts -->
-  <string name="screen_gestures_panel_title">Xestos</string>
-  <string name="ambient_display_title">Pantalla ambiente</string>
-  <string name="ambient_display_enable_title">Pantalla ambiente</string>
-  <string name="ambient_display_enable_summary">Prender pantalla al recibir avisos</string>
-  <string name="hand_wave_gesture_title">Ximelgar cola mano</string>
-  <string name="hand_wave_gesture_summary">Amosar notificaciones al ximelgar</string>
-  <string name="pocket_gesture_title">Bolsiellu</string>
-  <string name="pocket_gesture_summary">Amosar notific. al sacar del bolsiellu</string>
-  <string name="proximity_wake_title">Esconsoñar por proximidá</string>
-  <string name="proximity_wake_enable_title">Esconsoñar por proximidá</string>
-  <string name="proximity_wake_enable_summary">Esconsoñar el preséu al ximelgar</string>
+  <!-- Tilt sensor -->
+  <!-- Proximity sensor -->
+  <!-- Help text -->
 </resources>
