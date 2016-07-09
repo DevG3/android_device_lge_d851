@@ -224,13 +224,6 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/lge/d851/prebuilt/etc/nfcee_access.xml:system/etc/nfcee_access.xml
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
-    device/lge/d851/prebuilt/bin/thermal-engine:system/bin/thermal-engine \
-    device/lge/d851/prebuilt/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    device/lge/d851/prebuilt/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
-
 # Dalvik-Hack
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
@@ -509,7 +502,6 @@ PRODUCT_COPY_FILES += \
 
 # Perf
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/bin/mpdecision:system/bin/mpdecision \
     device/lge/d851/prebuilt/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Radio
