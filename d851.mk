@@ -228,6 +228,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
 
+# Boot Cleaner
+PRODUCT_COPY_FILES += \
+    device/lge/d851/prebuilt/etc/init.d/81clean:system/etc/init.d/81clean
+
 # BSOD Killer
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
