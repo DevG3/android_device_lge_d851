@@ -115,9 +115,6 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
-# Power
-TARGET_POWERHAL_VARIANT := qcom
-
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
