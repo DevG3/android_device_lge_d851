@@ -166,6 +166,9 @@ on boot
     chown system system /sys/devices/virtual/input/lge_touch/ts_noise
     chmod 664 /sys/devices/virtual/input/lge_touch/ts_noise
 
+    # enable tap_to_wake
+    write /sys/devices/virtual/input/lge_touch/tap_to_wake 1
+
     # setup permissions for fb0 related nodes
     chown system graphics /sys/class/graphics/fb0/idle_time
     chmod 664 /sys/class/graphics/fb0/idle_time
