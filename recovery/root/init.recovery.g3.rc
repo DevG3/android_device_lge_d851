@@ -2,6 +2,10 @@ on init
     mkdir /storage
     symlink /sdcard /storage/sdcard0
 
+on fs
+    chown root shell /sys/devices/virtual/input/lge_touch/tap_to_wake
+    write /sys/devices/virtual/input/lge_touch/tap_to_wake 1
+
 on boot
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/lpm_levels/enable_low_power/l2 4
@@ -10,7 +14,6 @@ on boot
     write /sys/module/msm_pm/modes/cpu2/power_collapse/suspend_enabled 1
     write /sys/module/msm_pm/modes/cpu3/power_collapse/suspend_enabled 1
     write /sys/module/msm_pm/modes/cpu0/power_collapse/idle_enabled 1
-    write /sys/module/msm_thermal/core_control/enabled 0
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu2/online 1
     write /sys/devices/system/cpu/cpu3/online 1
@@ -18,7 +21,6 @@ on boot
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq 300000
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq 300000
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq 300000
-    write /sys/module/msm_thermal/core_control/enabled 1
     setprop recovery.perf.mode 0
 
 on property:recovery.perf.mode=0
@@ -26,7 +28,7 @@ on property:recovery.perf.mode=0
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor ondemand
     write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor ondemand
     write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor ondemand
-    write /sys/devices/system/cpu/cpu1/online 0
+    write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu2/online 0
     write /sys/devices/system/cpu/cpu3/online 0
 

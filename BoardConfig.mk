@@ -96,10 +96,14 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/msm_dwc3/f9200000.dwc3/gadget/lun%d/file"
-TW_BRIGHTNESS_PATH := "/sys/devices/mdp.0/qcom\x2cmdss_fb_primary.175/leds/lcd-backlight/brightness"
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_EXCLUDE_SUPERSU := true
+TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_L_CRYPTO := true
+TW_MAX_BRIGHTNESS := 255
+TW_NO_REBOOT_BOOTLOADER := true
 TW_THEME := portrait_hdpi
 
 # Charger
