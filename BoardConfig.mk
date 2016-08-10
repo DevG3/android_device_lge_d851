@@ -62,6 +62,11 @@ COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND=' \
     { "persist.data.front.minfps", AID_MEDIA, 0 }, \
     '
 
+# Enable dexpreopt to speed boot time
+ifeq ($(HOST_OS),linux)
+  WITH_DEXPREOPT := true
+endif
+
 # WiFi
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_HOSTAPD_DRIVER := NL80211
