@@ -107,7 +107,6 @@ TW_THEME := portrait_hdpi
 # Charger
 BOARD_CHARGING_CMDLINE_NAME := "androidboot.mode"
 BOARD_CHARGING_CMDLINE_VALUE := "chargerlogo"
-BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/lge/d851/charger/images
 
 # CMHW
 BOARD_HARDWARE_CLASS := device/lge/d851/cmhw
