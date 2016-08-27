@@ -53,6 +53,7 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
 BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
+TARGET_NEEDS_TEXT_RELOCATIONS := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
