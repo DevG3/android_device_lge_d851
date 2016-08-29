@@ -330,6 +330,6 @@
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3700</integer>
 
     <!-- Enable UI blur feature -->
-    <bool name="config_ui_blur_enabled">true</bool>
+    <!--bool name="config_ui_blur_enabled">true</bool-->
 
 </resources>
