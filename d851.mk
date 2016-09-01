@@ -58,7 +58,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnetcmdiface \
     hostapd \
-    dhcpcd.conf \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
