@@ -13,6 +13,7 @@ ro.qc.sdk.audio.fluencetype=fluence
 use.voice.path.for.pcm.voip=true
 
 # Bluetooth
+qcom.bluetooth.soc=rome
 ro.bt.bdaddr_path=/data/misc/bluetooth/bdaddr
 
 # Camera
