@@ -231,6 +231,7 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/bin/rmt_storage:system/bin/rmt_storage \
     device/lge/d851/prebuilt/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     device/lge/d851/prebuilt/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    device/lge/d851/prebuilt/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     device/lge/d851/prebuilt/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     device/lge/d851/prebuilt/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     device/lge/d851/prebuilt/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
