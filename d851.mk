@@ -156,9 +156,9 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/lge/d851/prebuilt/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    device/lge/d851/prebuilt/etc/nfcee_access.xml:system/etc/nfcee_access.xml
+    device/lge/d851/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/lge/d851/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    device/lge/d851/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # Thermal
 PRODUCT_COPY_FILES += \
