@@ -162,7 +162,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
+    device/lge/d851/configs/thermal/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
     device/lge/d851/prebuilt/bin/thermal-engine:system/bin/thermal-engine \
     device/lge/d851/prebuilt/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     device/lge/d851/prebuilt/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
