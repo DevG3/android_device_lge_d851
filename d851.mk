@@ -426,8 +426,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    device/lge/d851/configs/sensors/sensors.qcom:system/bin/sensors.qcom \
-    device/lge/d851/prebuilt/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
+    device/lge/d851/prebuilt/bin/sensors.qcom:system/bin/sensors.qcom \
+    device/lge/d851/configs/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     device/lge/d851/prebuilt/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     device/lge/d851/prebuilt/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     device/lge/d851/prebuilt/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so
