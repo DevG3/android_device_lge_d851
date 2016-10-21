@@ -96,6 +96,7 @@ on boot
 on property:dev.bootcomplete=1
     setprop sys.io.scheduler bfq
     setprop ro.qualcomm.perf.cores_online 2
+    start mpdecision
 
 on property:init.svc.recovery=running
     trigger enable-low-power
