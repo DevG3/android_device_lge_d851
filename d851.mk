@@ -286,7 +286,7 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     device/lge/d851/configs/gps/gps.conf:system/etc/gps.conf \
-    device/lge/d851/configs/izat.conf:system/etc/izat.conf \
+    device/lge/d851/configs/gps/izat.conf:system/etc/izat.conf \
     device/lge/d851/prebuilt/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     device/lge/d851/prebuilt/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     device/lge/d851/prebuilt/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -425,7 +425,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/bin/sensors.qcom:system/bin/sensors.qcom \
+    device/lge/d851/configs/sensors/sensors.qcom:system/bin/sensors.qcom \
     device/lge/d851/prebuilt/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     device/lge/d851/prebuilt/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     device/lge/d851/prebuilt/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
