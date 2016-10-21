@@ -208,8 +208,8 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     device/lge/d851/configs/audio/audio_platform_info_bcm.xml:system/etc/audio_platform_info.xml \
     device/lge/d851/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    device/lge/d851/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml \
-    device/lge/d851/configs/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    device/lge/d851/configs/audio/mixer_paths_bcm.xml:system/etc/mixer_paths.xml \
+    device/lge/d851/configs/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     device/lge/d851/prebuilt/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     device/lge/d851/prebuilt/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     device/lge/d851/prebuilt/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
