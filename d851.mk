@@ -186,7 +186,7 @@ PRODUCT_COPY_FILES += \
 
 # IR
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/sec_config:system/etc/sec_config \
+    device/lge/d851/configs/ir//sec_config:system/etc/sec_config \
     device/lge/d851/prebuilt/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
     device/lge/d851/prebuilt/lib/libcir_driver.so:system/lib/libcir_driver.so
 
