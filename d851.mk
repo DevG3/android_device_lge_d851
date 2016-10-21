@@ -149,8 +149,8 @@ PRODUCT_COPY_FILES += \
 
 # Media
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml \
-    device/lge/d851/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    device/lge/d851/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
+    device/lge/d851/configs/media/media_profiles.xml:system/etc/media_profiles.xml \
     device/lge/d851/prebuilt/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     device/lge/d851/prebuilt/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so
 
