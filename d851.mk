@@ -280,8 +280,8 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    device/lge/d851/prebuilt/etc/hostapd/hostapd_default.conf:/system/etc/hostapd/hostapd_default.conf \
-    device/lge/d851/prebuilt/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
+    device/lge/d851/configs/wifi/hostapd/hostapd_default.conf:/system/etc/hostapd/hostapd_default.conf \
+    device/lge/d851/configs/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
 
 # GPS
 PRODUCT_COPY_FILES += \
