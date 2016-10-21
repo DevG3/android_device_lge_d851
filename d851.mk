@@ -208,8 +208,8 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     device/lge/d851/configs/audio/audio_platform_info_bcm.xml:system/etc/audio_platform_info.xml \
     device/lge/d851/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    device/lge/d851/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml \
-    device/lge/d851/configs/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    device/lge/d851/configs/audio/mixer_paths_bcm.xml:system/etc/mixer_paths.xml \
+    device/lge/d851/configs/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     device/lge/d851/prebuilt/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     device/lge/d851/prebuilt/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     device/lge/d851/prebuilt/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -281,7 +281,7 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     device/lge/d851/prebuilt/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    device/lge/d851/configs/wifi/hostapd/hostapd_default.conf:/system/etc/hostapd/hostapd_default.conf \
+    device/lge/d851/configs/wifi/hostapd_default.conf:/system/etc/hostapd/hostapd_default.conf \
     device/lge/d851/configs/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
 
 # GPS
@@ -426,8 +426,8 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    device/lge/d851/configs/sensors/sensors.qcom:system/bin/sensors.qcom \
-    device/lge/d851/prebuilt/etc/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
+    device/lge/d851/prebuilt/bin/sensors.qcom:system/bin/sensors.qcom \
+    device/lge/d851/configs/sensors/sensor_def_common.conf:system/etc/sensors/sensor_def_common.conf \
     device/lge/d851/prebuilt/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     device/lge/d851/prebuilt/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     device/lge/d851/prebuilt/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so
