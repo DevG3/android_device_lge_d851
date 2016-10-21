@@ -285,8 +285,8 @@ PRODUCT_COPY_FILES += \
 
 # GPS
 PRODUCT_COPY_FILES += \
-    device/lge/d851/prebuilt/etc/gps.conf:system/etc/gps.conf \
-    device/lge/d851/prebuilt/etc/izat.conf:system/etc/izat.conf \
+    device/lge/d851/configs/gps/gps.conf:system/etc/gps.conf \
+    device/lge/d851/configs/izat.conf:system/etc/izat.conf \
     device/lge/d851/prebuilt/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     device/lge/d851/prebuilt/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     device/lge/d851/prebuilt/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
