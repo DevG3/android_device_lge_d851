@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     camera.msm8974 \
     gps.msm8974 \
     keystore.msm8974 \
-    lights.msm8974
+    lights.msm8974 \
+    power.msm8974
 
 # Display
 PRODUCT_PACKAGES += \

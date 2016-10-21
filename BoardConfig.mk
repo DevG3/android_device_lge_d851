@@ -115,6 +115,9 @@ BOARD_HARDWARE_CLASS := device/lge/d851/cmhw
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
+# Power
+TARGET_POWERHAL_VARIANT := qcom
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
